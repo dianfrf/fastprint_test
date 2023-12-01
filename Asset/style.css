@@ -20,14 +20,17 @@ html, body {
     background-image: linear-gradient(to left, rgb(176, 197, 202),rgb(229, 156, 223)); padding:6rem; border-radius:1rem;
     border:none;
 }
-.nav-pills .nav-link {
-    border-radius:1rem; padding:1rem 2rem .6rem;
+.nav-pills .nav-item .nav-link {
+    padding:.4rem 1.6rem;
+}
+.nav-pills .nav-item .active {
+    border-bottom:.2rem solid rgb(176, 197, 202); background-color: white;
 }
 .nav-pills .active h6 {
-    color:white !important;
+    color:rgb(176, 197, 202) !important;
 }
 .home .cardinfo {
-    padding:1rem; border:.2rem solid rgb(245,245,245); margin-bottom:2rem; border-radius:1rem;
+    padding:2rem; border:.2rem solid rgb(245,245,245); margin-bottom:2rem; border-radius:1rem;
 }
 .home .cardinfo a {
     text-decoration: none; cursor:pointer;
@@ -44,16 +47,16 @@ html, body {
 .btnprimary:focus, .btnsecond:focus {
     outline:none;
 }
+.modal-dialog, .modal-content {
+    padding:1.2rem; border-radius:1.2rem;
+}
 
 
 h1 {
     font:normal 4.2rem/4.6rem 'RobotoBold'; color:rgb(18,18,18); margin-bottom: 2rem; margin-top:2rem; letter-spacing:.05rem;
 }
-h2 {
-    font:normal 3.2rem/3.84rem 'RobotoBold'; color:rgb(18,18,18); margin:0rem 0rem 3rem; letter-spacing:.05rem;
-}
 h3 {
-    font:normal 2.8rem/3.84rem 'RobotoBold'; color:rgb(18,18,18); text-align:left; margin:0rem 0rem 1rem; letter-spacing:.05rem;
+    font:normal 2.8rem/3.84rem 'RobotoBold'; color:rgb(18,18,18); text-align:left; margin:0rem; letter-spacing:.05rem;
 }
 h4 {
     font:normal 2.4rem/2.88rem 'RobotoBold'; color:rgb(18,18,18); text-align:center; letter-spacing:.05rem;

@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <title>Home - FastPrint</title>
+        <title>Home - Fast Print</title>
         <link rel="icon" type="image/png" href="<?=base_url()?>Asset/logo.png">
         <link rel="stylesheet" href="<?=base_url()?>Asset/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?=base_url()?>Asset/style.css" type="text/css">
@@ -17,7 +17,7 @@
             <div class="container">
                 <ul class="navbar-nav topnav">
                     <li class="nav-item-top">
-                        <h3>FASTPRINT</h3>
+                        <h3>FAST PRINT</h3>
                     </li>
                 </ul>
             </div>
